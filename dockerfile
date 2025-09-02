@@ -6,7 +6,7 @@ RUN apk update && \
     apk add curl openssl ca-certificates
 
 # Set desired versions
-ENV HAULER_VERSION="1.2.4"
+ENV HAULER_VERSION="1.2.5"
 RUN curl -sfL https://get.hauler.dev | sh
 
 # Verify installation
