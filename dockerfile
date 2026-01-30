@@ -1,4 +1,4 @@
-FROM alpine:3.23.3
+FROM alpine:3.23
 
 # Install prerequisites
 RUN apk update && \
